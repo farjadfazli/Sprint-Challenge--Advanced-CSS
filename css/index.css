@@ -145,6 +145,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
+h1 {
+  font-size: 4rem;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -160,6 +163,16 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.6rem;
+  padding: 10px 27% 10px 27%;
+}
+nav a {
+  text-decoration: none;
+  color: #5E6164;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +182,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+h1 {
+  padding-top: 5px;
+  padding-bottom: 8px;
+  text-align: center;
 }
 .home .intro h2 {
   padding: 15px;
@@ -211,6 +229,20 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: black;
+  color: white;
+  width: 100px;
+  padding: 10px;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: black;
+  width: 100px;
 }
 .home .walk .walk-img {
   width: 46%;

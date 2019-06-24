@@ -1,5 +1,13 @@
 // Home Content
 
+h1 {
+  padding-top: 5px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+
+
 .home {
 
   .intro {
@@ -9,7 +17,7 @@
     }
 
     p {
-      padding:0 15px;
+      padding: 0 15px;
     }
   
   }
@@ -58,6 +66,14 @@
       }
 
       .btn {
+        .button-mixin(black, white, 100px);
+        padding: 10px;
+        border-radius: 0.5rem;
+        text-align: center;
+        font-size: 1.8rem;
+        &:hover {
+          .button-mixin(white, black, 100px);
+        }
       }
     }
 
