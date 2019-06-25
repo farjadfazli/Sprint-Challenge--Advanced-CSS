@@ -1,6 +1,16 @@
 // Mixins Here
-.button-mixin(@bgcolor, @color, @width) {
+.button-mixin(@bgcolor, @color) {
     background-color: @bgcolor;
     color: @color;
-    width: @width;
+}
+
+.display-evenly-mixin {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.h1-mixin {
+    padding-top: 5px;
+    padding-bottom: 8px;
+    text-align: center;
 }
