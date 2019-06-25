@@ -1,1 +1,16 @@
 // Navigation code here
+nav {
+    .display-evenly-mixin();
+    font-size: 1.6rem;
+    padding: 10px 27% 10px 27%;
+    a {
+      text-decoration: none;
+      color: #5E6164;
+      @media @phone {
+          padding: 10px;
+      }
+    }
+    @media @phone {
+        padding: 0;
+    }
+  }
