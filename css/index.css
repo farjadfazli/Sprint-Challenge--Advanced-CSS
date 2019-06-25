@@ -176,20 +176,23 @@ nav {
   display: flex;
   justify-content: space-evenly;
   font-size: 1.6rem;
-  padding: 10px 27% 10px 27%;
+  width: 65%;
+  margin: auto;
+  padding: 10px;
 }
 nav a {
   text-decoration: none;
   color: #5E6164;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   nav a {
     padding: 10px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   nav {
     padding: 0;
+    width: 95%;
   }
 }
 footer {
@@ -207,11 +210,15 @@ h1 {
   padding-bottom: 8px;
   text-align: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .sky,
   .launch {
     display: none;
   }
+}
+.h1-nav {
+  width: 100%;
+  background: #f4f4f4;
 }
 .home .intro h2 {
   padding: 15px;
@@ -230,7 +237,7 @@ h1 {
   border-radius: 20px;
   height: 100%;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .home .space-images img {
     width: 95%;
   }
@@ -251,7 +258,7 @@ h1 {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .home .walk {
     padding: 10px;
     flex-direction: column-reverse;
@@ -261,7 +268,7 @@ h1 {
 .home .walk .walk-text {
   width: 50%;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .home .walk .walk-text {
     width: 100%;
     padding: 15px;
@@ -282,9 +289,11 @@ h1 {
   text-align: center;
   font-size: 1.8rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .home .walk .walk-text .btn {
-    width: 90%;
+    width: 95%;
+    margin: auto;
+    padding: 15px;
   }
 }
 .home .walk .walk-text .btn:hover {
@@ -295,7 +304,7 @@ h1 {
   width: 46%;
   margin-left: 4%;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .home .walk .walk-img {
     width: 95%;
   }
